@@ -23,6 +23,10 @@ The stylesheet was built using pixel values taken from `default.style` in `Nexus
 
 See the original style document [here](default.style).
 
+## Why
+
+For retro fun! And because it's actually a really elegant stylesheet.
+
 ## Notes
 
 * Ironically, pages styled with this stylesheet won't render correctly on WorldWideWeb: you'll get extra space in various places, including between headers and the first block of text. That's because for CSS we need a starttag and endtag on all `p` elements, but WorldWideWeb was written for `p` as an empty element.
