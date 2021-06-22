@@ -15,6 +15,7 @@ This is a light CSS reproduction of the stylesheet in Tim Berners-Lee's WorldWid
 ## Options
 
 * Retro fonts (taken from the actual NeXTStep font files) can be turned on or off; the font files are included in the code directory. (Credit to the [WorldWideWeb Rebuild](https://worldwideweb.cern.ch/typography/) team.)
+     * The fonts are Helvetica and [Olhfs](https://github.com/AlexHorovitz/Ohlfs-font-to-ttf-conversion)
 * Likewise, TimBL's original horizontal rule image file is used for `hr` elements, but if you turn that off, you'll get the modern equivalent (a CSS-computed gradient) instead.
 
 ## How
