@@ -25,7 +25,7 @@ See the original style document [here](default.style).
 
 ## Why
 
-For retro fun! And because it's actually a really elegant stylesheet.
+For retro fun! And because it's a really elegant stylesheet.
 
 ## Notes
 
