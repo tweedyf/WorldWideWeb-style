@@ -29,5 +29,5 @@ For retro fun! And because it's a really elegant stylesheet.
 
 ## Notes
 
-* Ironically, pages styled with this stylesheet won't render correctly on WorldWideWeb: you'll get extra space in various places, including between headers and the first block of text. That's because for CSS we need a starttag and endtag on all `p` elements, but WorldWideWeb was written for `p` as an empty element.
+* Ironically, pages styled with this stylesheet won't render correctly on WorldWideWeb: you'll get extra space in various places, including between headers and the first block of text. That's because for this CSS to work nicely, we need a starttag and endtag on all `p` elements, whereas WorldWideWeb was written for `p` as an empty element.
 * WorldWideWeb and other early browsers don't understand `br`, so the best way to put lines of text in a row without putting them in a list is to have `dt` elements without corresponding `dd` elements. You can do that here, but if you do, you'll need to add an empty `dt` before your first real one so that your text spans the container correctly. This is because of the CSS rule I've used to distinguish `dt`+`dd` pairs from singleton `dt` elements. I'm sorry!
