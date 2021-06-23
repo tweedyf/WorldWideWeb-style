@@ -34,7 +34,7 @@ For retro fun! And because it's a really elegant stylesheet.
      * Here's a hack you can use though:
           * Use empty `p` elements
           * Wrap your first block of text after a heading in `span` tags
-          * Add the following extra styles to `styles.css`
+          * Add the following extra styles to `styles.css`:
 ```css 
 :is(h2, h3, h4, h5, h6) ~ span {
 	margin-left: 90px;
