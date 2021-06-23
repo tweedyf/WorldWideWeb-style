@@ -33,7 +33,7 @@ For retro fun! And because it's a really elegant stylesheet.
 * Ironically, pages styled with this stylesheet won't render correctly on WorldWideWeb: you'll get extra space in various places, including between headers and the first block of text. That's because for this CSS to work nicely, we need a starttag and endtag on all `p` elements, whereas WorldWideWeb was written for `p` as an empty element.
      * Here's a hack you can use though:
           * Use empty `p` elements
-          * Wrap your first block of text after a heading in `span` tags
+          * Wrap the first block of text after each heading in `span` tags
           * Add the following extra styles to `styles.css`:
 ```css 
 :is(h2, h3, h4, h5, h6) ~ span {
