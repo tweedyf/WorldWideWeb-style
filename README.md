@@ -46,4 +46,4 @@ For retro fun! And because it's a really elegant stylesheet.
 		}
 }
 ```
-* WorldWideWeb and other early browsers don't understand `br`, so the best way to put lines of text in a row without putting them in a list is to have `dt` elements without corresponding `dd` elements. You can do that here, but if you do, you'll need to add an empty `dt` before your first real one so that your text spans the container correctly. This is because of the CSS rule I've used to distinguish `dt`+`dd` pairs from singleton `dt` elements. I'm sorry!
+* WorldWideWeb and other early browsers don't understand `br`, so the best way to put lines of text in a row without putting them in a list is to have `dt` elements without corresponding `dd` elements. You can do that here, but if you do, you'll need to add an empty `dt` before your first real one so that your text spans the width of the container correctly. This is because of the CSS rule I've used to distinguish `dt`+`dd` pairs (which split the width) from singleton `dt` elements (which use it all). I'm sorry!
