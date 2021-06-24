@@ -169,7 +169,7 @@ a:link, a:visited, a:hover {
 	}
 
 a:active {
-	background-color: #aaaaaa; /* Makes selected links highlighted in gray, as in WorldWideWeb */
+	background-color: #AAA; /* Makes selected links highlighted in gray, as in WorldWideWeb */
 	}
 
 /* Elements not defined in the WorldWideWeb style
