@@ -149,7 +149,9 @@ hr {
 	margin: 28px 0 28px 90px;
 	background-repeat: no-repeat;
 	/* Comment out the following two lines if you want a modern gradient,
-	   otherwise you'll get the HR image included with Nexus.app */
+	   otherwise you'll get the HR image included with Nexus.app - YOU
+	   MAY ALSO WANT TO REPLACE THE .TIFF WITH ANOTHER FORMAT FOR
+	   BETTER BROWSER COMPATIBILITY */
 	background-image: url('hrule_fade_8gray.tiff');
 	background-size: 470px;
 	}
