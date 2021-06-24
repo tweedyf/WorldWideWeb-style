@@ -15,7 +15,6 @@ html {
 	font-family: NeXT-Helvetica, Helvetica, sans-serif;
 	background-color: white;
 	line-height: 14pt;
-	background: white;
 	}
 
 body {
@@ -23,8 +22,7 @@ body {
 	margin: 20px auto; /* << Change 'auto' to '0' if you want left-aligned pages */
 	font-size: 12pt;
 	text-align: left;
-	background: white;
-	border: 1px solid white; /* << Change 'white' to e.g. 'black' if you want a page margin */
+	border: none; /* << Change to e.g. '1px solid black' if you want a page margin */
 	}
 
 :is(h2, h3, h4, h5, h6) ~ p { /* This stylesheet requires text to be wrapped in <p> tags to format correctly */
@@ -300,6 +298,25 @@ h3 {
 	hr {
 		margin-left: 14.75%;
 		}
+}
+
+/* Dark Mode if you want it!
+   --------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: #000;
+		}
+	body {
+		color: #AAA;
+		}
+	a:link, a:visited, a:hover {
+		color: #555;
+		}
+	a:active {
+		background-color: #AAA;
+		}
+	hr {invert(1);}
 }
 
 /* Additional user styles below this line 
