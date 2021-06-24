@@ -7,7 +7,7 @@ This is a light CSS reproduction of the stylesheet in Tim Berners-Lee's WorldWid
 
 ## Installation
 
-* Copy the files from the <code>code</code> directory into your web directory
+* Copy the files from the <code>styles</code> directory into your web directory
 * Link the stylesheet in your HTML code:
 
 `<link rel="stylesheet" type="text/css" href="styles.css">`
