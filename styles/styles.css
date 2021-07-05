@@ -98,14 +98,14 @@ h5 {
 	font-weight: bold;
 	font-style: italic;
 	font-size: 12pt;
-	margin: 14px 0 15pt 30px;
+	margin: 14px 0 14px 30px;
 	}
 
 h6 {
 	font-weight: bold;
 	font-style: italic;
 	font-size: 12pt;
-	margin: 14px 0 14pt 40px;
+	margin: 14px 0 14px 40px;
 	}
 
 ul {
@@ -172,31 +172,94 @@ a:active {
 	background-color: #AAA; /* Makes selected links highlighted in gray, as in WorldWideWeb */
 	}
 
-/* Elements not defined in the WorldWideWeb style
-   sheet but commonly used now 
+
+/* Un-comment for em-defined sizes instead of px/pt
    --------------------------------------------------- */
 
-img {
-	display: none;
-	/* margin: 0 0 1em 1em; << UNCOMMENT IF YOU WANT IMAGES AND COMMENT OUT PREVIOUS LINE */
+html {
+	line-height: 1.16em;
+	}
+
+body {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-size: 1em;
+	}
+
+:is(h2, h3, h4, h5, h6) ~ p { /* This stylesheet requires text to be wrapped in <p> tags to format correctly */
+	margin-bottom: 1.16em;
+	margin-left: 7.5em;
+	}
+
+dl {
+	margin-left: 7.5em;
+	}
+
+dt {
+	margin-bottom: 1.16em;
+	}
+
+h1 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin-bottom: 3em;
+	}
+
+h2 {
+	font-size: 1.16em;
+	margin-top 1.16em;
+	margin-bottom: 1.16em;
+	}
+
+h3 {
+	font-size: 1.16em;
+	margin: 1.16em 0 1.16em 0.83em;
+	}
+
+h4 {
+	font-size: 1em;
+	margin: 1.16em 0 1.16em 1.67em;
+	}
+
+h5 {
+	font-size: 1em;
+	margin: 1.16em 0 1.16em 2.5em;
+	}
+
+h6 {
+	font-size: 1em;
+	margin: 1.16em 0 1.16em 3.33em;
+	}
+
+ul {
+	margin: 0 0 1.16em 8.33em;
+	}
+
+pre,xmp {
+	font-size: 0.83em;
 	}
 
 ol,ul {
-	margin: 0 0 14px 112px;
+	margin: 0 0 1.16em 9.33em;
 	padding-left: 0;
 	}
 
 li {
-	padding-left: 30px;
+	padding-left: 2.5em;
 	}
 
-sup, sub { /* To make superscript and subscript not mess up baselines */
-	vertical-align: baseline;
-	position: relative;
-	top: -0.4em;
+menu {
+	font-size: 0.92em;
+	margin: 0 0 0 6.66em;
 	}
-sub { 
-	top: 0.4em; 
+
+dir {
+	font-size: 0.92em;
+	margin: 0 0 0 1.66em;
+	}
+
+listing {
+	font-size: 0.75em;
 	}
 
 /* If you want NeXTStep-style retro fonts 
