@@ -197,7 +197,7 @@ address {
 	}
 
 blockquote {
-	margin: 14pt 0 14pt 30px;
+	margin: 14pt 0 14pt 20px;
 	font-style: italic;
 	}
 
@@ -207,6 +207,10 @@ a:link, a:visited, a:hover {
 
 a:active {
 	background-color: #AAA;
+	}
+
+img, video {
+	max-width: 100%;
 	}
 
 /*
