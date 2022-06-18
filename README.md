@@ -5,6 +5,8 @@ This is a light CSS reproduction of the stylesheet in Tim Berners-Lee's WorldWid
 
 ![screenshot](screenshot.png)
 
+![element tests](testpage.png)
+
 ## Installation
 
 * Copy the <code>styles</code> directory into your web directory
