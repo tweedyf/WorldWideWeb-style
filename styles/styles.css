@@ -6,18 +6,18 @@
    
                    v. 1.0 Alpha (rev 2), tweedyf, June 2022
 ----------------------------------------------------------------------------- */
-
+* {border: 1px solid black;}
 html {
 	font-family: NeXT-Helvetica, Helvetica, sans-serif;
 	background-color: white;
 	line-height: 14px;
+	font-size: 12px;
+	text-align: left;
 	}
 
 body {
-	max-width: 415;
+	width: 415;
 	margin: 20px auto;
-	font-size: 12px;
-	text-align: left;
 	padding-left: 90px;
 	}
 
@@ -29,8 +29,9 @@ dl {
 dt {
 	margin: 0;
 	margin-bottom: 14px;
+	padding-right: 10px;
 	float: left;
-	width: 150px;
+	width: 140px;
 	clear: left;
 	}
 
@@ -281,35 +282,61 @@ h3 {
 /* Start calculating based on % once < WWW default window size (505px)
 ----------------------------------------------------------------------------- */
 
-@media (max-width: 505px) {
+@media (max-width: 505) {
 	body {
+		width: 81.9%;
 		text-align: left;
 		padding-left: 17.8%;
 		}
 
+	header, footer, .fullwidth {
+		left: -21.7%;
+		width: 121.7%;
+		}
+
 	h1 {
-		width: 100%;
-		left: -17.8%;
+		width: 121.7%;
+		left: -21.7%;
 		}
 
 	h2 {
-		left: -15.8%;
+		width: 121.7%;
+		left: -21.7%;
 		}
 
 	h3 {
-		left: -13.9%;
+		width: 119.3%;
+		left: -19.3%;
 		}
 
 	h4 {
-		left: -11.9%;
+		width: 116.9%;
+		left: -16.9%;
 		}
 
 	h5 {
-		left: -9.9%;
+		width: 114.5%;
+		left: -14.5%;
 		}
 
 	h6 {
-		left: -7.9%;
+		width: 112.0%;
+		left: -12.0%;
+		}
+
+	pre, xmp, listing {
+		width: 121.7%;
+		position: relative;
+		left: -21.7%;
+		}
+
+	dt {
+		width: 32%;
+		padding-right: 5%;
+		}
+
+	dd {
+		 width: 62%;
 		}
 }
 
