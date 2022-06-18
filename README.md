@@ -9,10 +9,12 @@ This is a light CSS reproduction of the stylesheet in Tim Berners-Lee's WorldWid
 
 ## Installation
 
-* Copy the <code>styles</code> directory into your web directory
-* Link the stylesheet in your HTML code:
+**Two versions of the stylesheet are available: one using `px` values everywhere, and a second using `pt` values for font-related sizing and spacing.**
 
-`<link rel="stylesheet" type="text/css" href="styles/styles.css">`
+* Copy the <code>styles</code> directory into your web directory
+* Link one of the stylesheets in your HTML code:
+
+`<link rel="stylesheet" type="text/css" href="styles/styles.css">` or `<link rel="stylesheet" type="text/css" href="styles/styles-pt.css">` 
 
 ## Options
 
