@@ -22,13 +22,7 @@ or
 
 `<link rel="stylesheet" type="text/css" href="styles/styles-pt.css">` 
 
-* You can also hotlink from Github Pages:
-
-`<link rel="stylesheet" type="text/css" href="https://tweedyf.github.io/WorldWideWeb-style/styles/styles.css">` 
-
-or 
-
-`<link rel="stylesheet" type="text/css" href="https://tweedyf.github.io/WorldWideWeb-style/styles/styles-pt.css">`
+* You can also hotlink from the repo's Github Pages: [styles](https://tweedyf.github.io/WorldWideWeb-style/styles/styles.css), [styles-pt](https://tweedyf.github.io/WorldWideWeb-style/styles/styles-pt.css)
 
 ## Options
 
