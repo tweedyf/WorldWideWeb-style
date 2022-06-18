@@ -24,7 +24,7 @@ This is a light CSS reproduction of the stylesheet in Tim Berners-Lee's WorldWid
 
 ## How
 
-The stylesheet was built using pixel values taken from `[default.style](default.style)` in `Nexus.app`. I've hard-coded them for a 505px-wide body (the default width of a Nexus browser window) but also converted to percentages for smaller screen widths.
+The stylesheet was built using pixel values taken from `default.style` in `Nexus.app`. I've hard-coded them for a 505px-wide body (the default width of a Nexus browser window) but also converted to percentages for smaller screen widths.
 
 ## Why
 
