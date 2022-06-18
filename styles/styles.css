@@ -154,6 +154,10 @@ menu, menu > li {
 	padding: 0;
 	}
 
+menu > li {
+	padding-bottom: 14px;
+	}
+
 /* "elements are expected to be smaller and to be arranged in columns." */
 dir {
 	font-size: 11px;
