@@ -7,6 +7,8 @@ This is a light CSS reproduction of the stylesheet in Tim Berners-Lee's WorldWid
 
 ![element tests](testpage.png)
 
+[See a sample page here.](https://tweedyf.github.io/WorldWideWeb-style/)
+
 ## Installation
 
 **Two versions of the stylesheet are available: one using `px` values everywhere, and a second using `pt` values for font-related sizing and spacing.**
