@@ -16,11 +16,7 @@ This is a light CSS reproduction of the stylesheet in Tim Berners-Lee's WorldWid
 * Copy the <code>styles</code> directory into your web directory
 * Link one of the stylesheets in your HTML code:
 
-`<link rel="stylesheet" type="text/css" href="styles/styles.css">` 
-
-or 
-
-`<link rel="stylesheet" type="text/css" href="styles/styles-pt.css">` 
+`<link rel="stylesheet" type="text/css" href="styles/styles.css">` or `<link rel="stylesheet" type="text/css" href="styles/styles-pt.css">` 
 
 * You can also hotlink from the repo's Github Pages: [styles](https://tweedyf.github.io/WorldWideWeb-style/styles/styles.css), [styles-pt](https://tweedyf.github.io/WorldWideWeb-style/styles/styles-pt.css)
 
